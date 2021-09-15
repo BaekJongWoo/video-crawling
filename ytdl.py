@@ -8,7 +8,7 @@ from pathlib import Path
 from os import path, listdir, getcwd
 
 FLAGS = flags.FLAGS
-flags.DEFINE_string("search_keyword", "korean+talking", "search_keyword")
+flags.DEFINE_string("search_keyword", "korean+talking", "ASCII, '+'for space bar")
 flags.DEFINE_integer("file_num", 5, "number of files to download")
 
 def is_have_music(id:str):
